@@ -50,7 +50,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
-  color: #ccc;
   cursor: pointer;
 }
 
@@ -71,8 +70,15 @@ body {
 .is-active {
   overflow: auto;
   height: 120px;
+  padding: 20px;
 }
 
 .rotate {
   transform: rotate(90deg) !important;
+}
+
+hr {
+height: 1px;
+background-color: #e5e5f3;
+border: none;
 }
