@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3f3fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.small-section-container {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #e5e5f3;
+}
+.small-section-container .list-items {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+.list-items .item {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  padding: 10px 25px;
+}
+
+.item:hover {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.item img {
+  margin-right: 15px;
+}
+
+.big-section-container {
+  max-width: 500px;
+  padding: 20px;
+  margin-left: 30px;
+}
+/* Big Section right */
+.faq-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.faq-title img {
+  width: 15px;
+  height: 15px;
+  transform: rotate(-90deg);
+}
+
+.faq-content {
+  margin-top: 10px;
+  height: 0;
+  overflow: hidden;
+}
+
+.is-active {
+  overflow: auto;
+  height: auto;
+}
