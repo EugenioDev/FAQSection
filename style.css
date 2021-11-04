@@ -51,21 +51,28 @@ body {
   justify-content: space-between;
   margin-top: 15px;
   color: #ccc;
+  cursor: pointer;
 }
 
 .faq-title img {
   width: 15px;
   height: 15px;
   transform: rotate(-90deg);
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .faq-content {
   margin-top: 10px;
   height: 0;
   overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .is-active {
   overflow: auto;
-  height: auto;
+  height: 120px;
+}
+
+.rotate {
+  transform: rotate(90deg) !important;
 }
