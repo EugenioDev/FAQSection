@@ -82,3 +82,8 @@ height: 1px;
 background-color: #e5e5f3;
 border: none;
 }
+
+/* Data Css */
+.big-section-container {
+  display: none;
+}
